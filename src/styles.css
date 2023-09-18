@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.X {
+  margin-left: 90%;
+  cursor: pointer;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  width: 5%;
+}
+.descrip {
+  text-align: left;
+}
+
+.Tite {
+  text-align: center;
+}
+
+.Story {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 2px #aeaeae;
+  padding: 5px;
+}
+
+.Story-Head {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.image {
+  width: 100%;
+}
+
+.ByLine {
+  margin-right: 60%;
+}
+
+.ByTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+}
